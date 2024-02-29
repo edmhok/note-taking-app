@@ -1,0 +1,30 @@
+{
+  "name": "note-taking-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-json": "^2.0.23",
+    "@types/koa-router": "^7.4.8",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "koa-bodyparser": "^4.4.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.1"
+  }
+}
